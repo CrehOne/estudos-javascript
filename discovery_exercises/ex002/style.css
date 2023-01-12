@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+#lists p {
+    display: inline;
+    padding: 0px 140px 10px 0px;
+}
+
+#lists select {
+    width: 200px;
+}
+
+#psaldo {
+    display: inline;
+    padding: 20px 0px;
+}
+
+.resultNeg {
+    display: inline-block;
+    background-color: rgba(232, 116, 116, 0.523);
+    color: red;
+    font-weight: 900;
+    width: 100px;
+    text-align: center;
+}
+
+.resultPos {
+    display: inline-block;
+    background-color: rgba(116, 232, 126, 0.523);
+    color: green;
+    font-weight: 900;
+    width: 100px;
+    text-align: center;
+}

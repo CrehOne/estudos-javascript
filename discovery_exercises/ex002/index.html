@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de gastos familiar</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Saldo financeiro familiar</h1>
+    <div id="form">
+        <p><label for="txtn">Valor (R$) receita/despesa: </label><input type="number" name="txtn" id="txtn"> </p>
+        <p><input type="radio" name="radiodr" id="raddespesa" checked>Despesa <input type="radio" name="radiodr" id="radreceita">Receita <input type="button" value="Incluir" onclick="validate()"></p>
+    </div>
+    <div id="lists">
+        <p>Despesas</p>
+        <p>Receitas<br></p>
+        <select name="seldespesa" id="seldespesa" size="10"></select>
+        
+        <select name="selreceita" id="selreceita" size="10"></select>
+    </div>
+    
+    <p id="psaldo">Saldo familiar: </p>
+    <div id="result">
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
