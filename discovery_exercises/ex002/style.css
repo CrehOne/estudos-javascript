@@ -14,15 +14,6 @@
     padding: 20px 0px;
 }
 
-.resultNeg {
-    display: inline-block;
-    background-color: rgba(232, 116, 116, 0.523);
-    color: red;
-    font-weight: 900;
-    width: 100px;
-    text-align: center;
-}
-
 .resultPos {
     display: inline-block;
     background-color: rgba(116, 232, 126, 0.523);
@@ -31,3 +22,13 @@
     width: 100px;
     text-align: center;
 }
+
+#result {
+    display: inline-block;
+    background-color: rgba(232, 116, 116, 0.523);
+    color: red;
+    font-weight: 900;
+    width: 100px;
+    text-align: center;
+}
+

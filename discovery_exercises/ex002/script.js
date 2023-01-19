@@ -44,9 +44,9 @@ function mostrarSaldo() {
     result.innerHTML = `R$ ${saldo.toFixed(2)}`
     if (saldo >= 0) {
         result.classList.add('resultPos')
-    } else {
-        result.classList.add('resultNeg')
-    }
+    } /*else {
+        result.classList.remove('resultPos')
+    }*/
     txtn.focus()
     txtn.value = ''
     txtn.innerHTML = ''
