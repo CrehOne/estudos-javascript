@@ -1,6 +1,6 @@
 function calcular() {
-    let num = document.getElementById('txtn')
-    let tab = document.getElementById('seltab')
+    let num = document.getElementById('txtn') as HTMLInputElement
+    let tab = document.getElementById('seltab') as HTMLInputElement
     if (num.value.length == 0) {
         alert('Por favor, digite um número')
     } else {
